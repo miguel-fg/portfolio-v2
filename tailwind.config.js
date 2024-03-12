@@ -22,6 +22,15 @@ export default {
         'h3': ['1.5rem', {letterSpacing: '7%', fontWeight: '600'}],
         'h2': ['4rem', {fontWeight: '700'}],
         'h1': ['8rem', {fontWeight: '700'}],
+      },
+      gridTemplateColumns: {
+        '12': 'repeat(12, 5.5rem)'
+      },
+      gap: {
+        '20': '1.25rem',
+      }, 
+      width: {
+        'fit-content': 'fit-content'
       }
     },
   },
