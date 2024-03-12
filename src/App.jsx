@@ -1,8 +1,12 @@
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Portfolio from "./pages/Portfolio"
+import Contact from "./pages/Contact"
+
 function App() {
   return (
-    <div className="container mx-auto w-fit-content grid grid-cols-12 gap-20">
-      <h1 className="col-start-1 col-span-12 text-h1 font-LS text-oxford-blue">Miguel Fierro.</h1>
-    </div>
+    <>
+    </>
   )
 }
 
