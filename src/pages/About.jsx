@@ -1,5 +1,6 @@
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
+import Divider from "../components/Divider";
 
 const About = () => {
     return (
@@ -7,7 +8,9 @@ const About = () => {
             <h1 className="text-h1 font-LS text-oxford-blue col-span-12 text-center mt-10">
                 About Me
             </h1>
+            <Divider />
             <ContactForm title="let's connect" />
+            <Divider />
             <Footer />
         </>
     );
