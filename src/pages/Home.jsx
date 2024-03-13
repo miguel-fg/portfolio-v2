@@ -1,4 +1,5 @@
 import ContactForm from "../components/ContactForm";
+import Footer from "../components/Footer";
 
 const Home = () => {
     return (
@@ -7,6 +8,7 @@ const Home = () => {
                 Miguel Fierro.
             </h1>
             <ContactForm title="send me a message"/>
+            <Footer />
         </>
     );
 }
