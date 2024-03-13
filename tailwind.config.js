@@ -10,6 +10,7 @@ export default {
         'oxford-blue': '#0E1C36',
         'alabaster': '#F1EFE7',
         'sea-green': '#5C946E',
+        'sea-green-light': '#9BC0A7'
       },
       fontFamily: {
         LS: ['"League Spartan"', 'sans-serif'],
