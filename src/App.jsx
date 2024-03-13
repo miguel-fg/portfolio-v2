@@ -9,7 +9,7 @@ import NavBar from "./components/NavBar"
 const App = () => {
   return (
     <div className="container mx-auto w-fit-content grid grid-cols-12 gap-20">
-      <BrowserRouter>
+      <BrowserRouter basename={`${import.meta.env.BASE_URL}`}>
       <NavBar />
         <Routes>
           <Route index path="/" element={<Home />} />
