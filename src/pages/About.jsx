@@ -1,4 +1,6 @@
 import ContactForm from "../components/ContactForm";
+import Footer from "../components/Footer";
+
 const About = () => {
     return (
         <>
@@ -6,6 +8,7 @@ const About = () => {
                 About Me
             </h1>
             <ContactForm title="let's connect" />
+            <Footer />
         </>
     );
 }

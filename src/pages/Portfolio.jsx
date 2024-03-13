@@ -1,4 +1,5 @@
 import ContactForm from "../components/ContactForm";
+import Footer from "../components/Footer";
 
 const Portfolio = () => {
     return (
@@ -7,6 +8,7 @@ const Portfolio = () => {
                 My Work
             </h1>
             <ContactForm title="questions, suggestions, comments?" />
+            <Footer />
         </>
     );
 }
