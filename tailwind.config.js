@@ -31,6 +31,9 @@ export default {
       }, 
       width: {
         'fit-content': 'fit-content'
+      },
+      height: {
+        'fit-content': 'fit-content'
       }
     },
   },
