@@ -20,7 +20,7 @@ export default {
         'body': ['1.25rem', {lineHeight: '130%', fontWeight: '400'}],
         'sub-subtitle': ['2.25rem', {fontWeight: '400'}],
         'subtitle': ['3rem', {fontWeight: '400'}],
-        'h3': ['1.5rem', {letterSpacing: '7%', fontWeight: '600'}],
+        'h3': ['1.5rem', {letterSpacing: '0.05em', fontWeight: '600'}],
         'h2': ['4rem', {fontWeight: '700'}],
         'h1': ['8rem', {fontWeight: '700'}],
       },
