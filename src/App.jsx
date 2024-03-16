@@ -1,5 +1,5 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
-
+import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -13,6 +13,7 @@ const App = () => {
             <div className="container mx-auto w-fit-content grid grid-cols-12 gap-20">
                 <HashRouter basename={"/"}>
                     <NavBar />
+                    <ScrollToTop />
                     <Routes>
                         <Route index path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
