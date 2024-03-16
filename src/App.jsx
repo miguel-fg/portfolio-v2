@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -11,7 +11,7 @@ const App = () => {
     return (
         <>
             <div className="container mx-auto w-fit-content grid grid-cols-12 gap-20">
-                <BrowserRouter basename={`${import.meta.env.BASE_URL}`}>
+                <HashRouter basename={"/"}>
                     <NavBar />
                     <Routes>
                         <Route index path="/" element={<Home />} />
@@ -20,7 +20,7 @@ const App = () => {
                         <Route path="/contact" element={<Contact />} />
                         <Route path="/oops" element={<Oops />} />
                     </Routes>
-                </BrowserRouter>
+                </HashRouter>
             </div>
             <div className="w-full h-4 sticky top-[100vh] bg-sea-green opacity-80 mt-12"></div>
         </>
