@@ -15,7 +15,7 @@ const Home = () => {
             <h2 className="col-span-4 text-subtitle font-MT text-oxford-blue leading-tight">
                 Software & web developer
             </h2>
-            <p className="col-span-12 text-body text-oxford-blue font-MT mt-4">
+            <p className="col-span-12 text-2xl text-oxford-blue font-MT mt-4">
                 I make accessible full stack web applications.
             </p>
             <Link

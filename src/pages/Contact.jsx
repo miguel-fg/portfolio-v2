@@ -9,7 +9,7 @@ const Contact = () => {
                 Contact Me
             </h1>
             <p className="col-span-8 col-start-3 font-MT text-2xl text-oxford-blue text-center">
-                Reach out to me using the form below or the contact information at the bottom of the page. You can expect a reply within 1-2 business days. I look forward to hearing
+                Use the form below or the contact information at the bottom of the page to send me a message. I look forward to hearing
                 from you!
             </p>
             <Divider />
