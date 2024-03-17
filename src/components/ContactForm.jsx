@@ -17,7 +17,7 @@ const ContactForm = (props) => {
                         <input
                             type="text"
                             name="name"
-                            className="w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm"
+                            className="w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:outline-none focus:ring-sea-green focus:ring-4"
                         ></input>
                     </div>
                     <div>
@@ -31,7 +31,7 @@ const ContactForm = (props) => {
                         <input
                             type="text"
                             name="email"
-                            className="w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm"
+                            className="w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:outline-none focus:ring-sea-green focus:ring-4"
                         ></input>
                     </div>
                     <div>
@@ -45,7 +45,7 @@ const ContactForm = (props) => {
                         <input
                             type="text"
                             name="phone"
-                            className="w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm"
+                            className="w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:outline-none focus:ring-sea-green focus:ring-4"
                         ></input>
                     </div>
                 </div>
@@ -60,11 +60,14 @@ const ContactForm = (props) => {
                     <textarea
                         name="message"
                         rows="8"
-                        className="w-full bg-alabaster rounded-xl text-oxford-blue text-body font-MT drop-shadow-sm"
+                        className="w-full bg-alabaster rounded-xl text-oxford-blue text-body font-MT drop-shadow-sm focus:outline-none focus:ring-sea-green focus:ring-4"
                     ></textarea>
                 </div>
                 <div className="flex items-center justify-center">
-                    <button className="bg-oxford-blue text-alabaster text-h3 font-LS uppercase py-2.5 px-24 rounded-xl drop-shadow-sm">
+                    <button
+                        disabled
+                        className="bg-oxford-blue text-alabaster text-h3 font-LS uppercase py-2.5 px-24 rounded-xl drop-shadow-sm disabled:opacity-70"
+                    >
                         Submit
                     </button>
                 </div>
