@@ -21,7 +21,7 @@ const NavBar = () => {
                         <li className="flex self-center mr-24">
                             <Link
                                 to="/"
-                                className="text-h3 font-LS uppercase text-oxford-blue "
+                                className="text-h3 font-LS uppercase text-oxford-blue hover:underline hover:decoration-2 rounded-xl active:text-sea-green"
                             >
                                 Home
                             </Link>
@@ -29,7 +29,7 @@ const NavBar = () => {
                         <li className="flex self-center mr-24">
                             <Link
                                 to="/about"
-                                className="text-h3 font-LS uppercase text-oxford-blue"
+                                className="text-h3 font-LS uppercase text-oxford-blue hover:underline hover:decoration-2 rounded-xl active:text-sea-green"
                             >
                                 About
                             </Link>
@@ -37,7 +37,7 @@ const NavBar = () => {
                         <li className="flex self-center mr-24">
                             <Link
                                 to="/portfolio"
-                                className="text-h3 font-LS uppercase text-oxford-blue"
+                                className="text-h3 font-LS uppercase text-oxford-blue hover:underline hover:decoration-2 rounded-xl active:text-sea-green"
                             >
                                 My Work
                             </Link>
@@ -45,7 +45,7 @@ const NavBar = () => {
                         <li className="flex self-center">
                             <Link
                                 to="/contact"
-                                className="text-h3 font-LS uppercase text-alabaster bg-sea-green w-48 inline-block px-10 py-2.5 rounded-xl drop-shadow-md"
+                                className="text-h3 font-LS uppercase text-alabaster bg-sea-green w-48 inline-block px-10 py-2.5 rounded-xl drop-shadow-md active:bg-oxford-blue active:text-alabaster"
                             >
                                 Contact
                             </Link>

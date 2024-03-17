@@ -12,7 +12,7 @@ const Oops = () => {
             <h2 className="col-span-12 text-subtitle font-MT">
                 This page is not available (yet)
             </h2>
-            <Link to="/" className="bg-sea-green w-fit text-h3 font-LS uppercase text-alabaster px-10 py-2.5 rounded-xl drop-shadow-md col-span-6 mt-16">
+            <Link to="/" className="bg-sea-green w-fit text-h3 font-LS uppercase text-alabaster px-10 py-2.5 rounded-xl drop-shadow-md col-span-6 mt-16 active:bg-oxford-blue">
                 Go Back
             </Link>
             <Divider />

@@ -25,9 +25,9 @@ const About = () => {
                         to="https://tec.mx/en"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-bold underline"
+                        className="font-bold underline active:text-sea-green visited:text-vlink"
                     >
-                        ITESM
+                        Tec de Monterrey
                     </Link>
                     . After which I decided to focus on Computer Science and
                     enroll in a diploma at{" "}
@@ -35,7 +35,7 @@ const About = () => {
                         to="https://langara.ca/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-bold underline"
+                        className="font-bold underline active:text-sea-green visited:text-vlink"
                     >
                         Langara College
                     </Link>
@@ -49,7 +49,7 @@ const About = () => {
                         to="https://www.linkedin.com/company/grupoaerobot/about/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-bold underline"
+                        className="font-bold underline active:text-sea-green visited:text-vlink"
                     >
                         Aerobot Academy
                     </Link>
@@ -73,7 +73,7 @@ const About = () => {
                         to="https://intesc.mx/quienes-somos/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-bold underline"
+                        className="font-bold underline active:text-sea-green visited:text-vlink"
                     >
                         INTESC
                     </Link>
@@ -83,7 +83,7 @@ const About = () => {
                         to="https://intesc.mx/productos/tarjeta-de-desarrollo-ophyra/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-bold underline"
+                        className="font-bold underline active:text-sea-green visited:text-vlink"
                     >
                         Ophyra
                     </Link>{" "}

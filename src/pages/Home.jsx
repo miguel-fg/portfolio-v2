@@ -20,13 +20,13 @@ const Home = () => {
             </p>
             <Link
                 to="/portfolio"
-                className="col-span-3 bg-sea-green text-center px-10 py-2.5 rounded-xl drop-shadow-md text-h3 uppercase font-LS text-alabaster mt-16"
+                className="col-span-3 bg-sea-green border-4 border-sea-green text-center px-10 py-2.5 rounded-xl drop-shadow-md text-h3 uppercase font-LS text-alabaster mt-16 active:bg-oxford-blue active:border-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4"
             >
                 See my work
             </Link>
             <Link
                 to="/contact"
-                className="col-span-3 bg-alabaster border-4 border-sea-green text-center px-10 py-2.5 rounded-xl drop-shadow-md text-h3 uppercase font-LS text-oxford-blue mt-16"
+                className="col-span-3 bg-alabaster border-4 border-sea-green text-center px-10 py-2.5 rounded-xl drop-shadow-md text-h3 uppercase font-LS text-oxford-blue mt-16 active:bg-oxford-blue active:text-alabaster active:border-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4 focus:border-alabaster"
             >
                 Get in touch
             </Link>
@@ -45,7 +45,7 @@ const Home = () => {
                 </p>
                 <Link
                     to="/about"
-                    className="grid-inherit col-span-3 col-start-1 bg-sea-green text-center px-20 py-3 rounded-xl drop-shadow-md text-h3 uppercase font-LS text-alabaster"
+                    className="grid-inherit col-span-3 col-start-1 bg-sea-green text-center px-20 py-3 rounded-xl drop-shadow-md text-h3 uppercase font-LS text-alabaster active:bg-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4"
                 >
                     About me
                 </Link>
@@ -61,16 +61,32 @@ const Home = () => {
             <Divider />
             <div className="col-span-6 flex flex-wrap justify-between items-center">
                 <div className="w-fit">
-                    <img src="/portfolio-v2/thumbnails/cashflow.png" alt="Cash flow project thumbnail" className="max-w-72 rounded-2xl drop-shadow-lg"/>
+                    <img
+                        src="/portfolio-v2/thumbnails/cashflow.png"
+                        alt="Cash flow project thumbnail"
+                        className="max-w-72 rounded-2xl drop-shadow-lg"
+                    />
                 </div>
                 <div className="w-fit">
-                    <img src="/portfolio-v2/thumbnails/opencanvas.png" alt="Open canvas project thumbnail" className="max-w-72 rounded-2xl drop-shadow-lg"/>
+                    <img
+                        src="/portfolio-v2/thumbnails/opencanvas.png"
+                        alt="Open canvas project thumbnail"
+                        className="max-w-72 rounded-2xl drop-shadow-lg"
+                    />
                 </div>
                 <div className="w-fit">
-                    <img src="/portfolio-v2/thumbnails/intelliquiz.png" alt="Intelliquiz project thumbnail" className="max-w-72 rounded-2xl drop-shadow-lg"/>
+                    <img
+                        src="/portfolio-v2/thumbnails/intelliquiz.png"
+                        alt="Intelliquiz project thumbnail"
+                        className="max-w-72 rounded-2xl drop-shadow-lg"
+                    />
                 </div>
                 <div className="w-fit">
-                    <img src="/portfolio-v2/thumbnails/bitebalance.png" alt="Bitebalance project thumbnail" className="max-w-72 rounded-2xl drop-shadow-lg"/>
+                    <img
+                        src="/portfolio-v2/thumbnails/bitebalance.png"
+                        alt="Bitebalance project thumbnail"
+                        className="max-w-72 rounded-2xl drop-shadow-lg"
+                    />
                 </div>
             </div>
             <div className="col-span-6 col-start-7 ml-6">
@@ -87,7 +103,7 @@ const Home = () => {
                 </p>
                 <Link
                     to="/portfolio"
-                    className="grid-inherit col-span-3 col-start-1 bg-sea-green text-center px-20 py-3 rounded-xl drop-shadow-md text-h3 uppercase font-LS text-alabaster"
+                    className="grid-inherit col-span-3 col-start-1 bg-sea-green text-center px-20 py-3 rounded-xl drop-shadow-md text-h3 uppercase font-LS text-alabaster active:bg-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4"
                 >
                     Check out my projects
                 </Link>
