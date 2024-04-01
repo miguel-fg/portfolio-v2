@@ -22,9 +22,9 @@ const Footer = () => {
     }
 
     return (
-        <div className="col-span-10 col-start-2">
-            <footer className="flex justify-between">
-                <div className="flex flex-col items-center justify-center">
+        <div className="lg:w-10/12 lg:mx-auto">
+            <footer className="flex flex-col lg:flex-row lg:justify-between">
+                <div className="flex mb-6 lg:mb-0 lg:flex-col items-center lg:justify-center">
                     <img
                         src={logo}
                         width="80"
@@ -32,11 +32,11 @@ const Footer = () => {
                         alt="Page logo"
                         className="drop-shadow-md"
                     />
-                    <p className="font-LS font-bold text-3xl text-oxford-blue text-center">
-                        Miguel <br /> Fierro
+                    <p className="font-LS font-bold text-3xl text-oxford-blue text-center lg:w-min">
+                        Miguel Fierro
                     </p>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col py-6 lg:py-0 lg:border-b-0 border-b border-sea-green border-opacity-50">
                     <p className="font-LS text-h3 uppercase text-oxford-blue mb-5">
                         Browse
                     </p>
@@ -65,7 +65,7 @@ const Footer = () => {
                         Contact Me
                     </Link>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col py-6 lg:py-0 lg:border-b-0 border-b border-sea-green border-opacity-50">
                     <p className="font-LS text-h3 uppercase text-oxford-blue mb-5">
                         Resources
                     </p>
@@ -92,7 +92,7 @@ const Footer = () => {
                         GitHub
                     </Link>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col mt-6 lg:mt-0">
                     <p className="font-LS text-h3 uppercase text-oxford-blue mb-5">
                         Contact Me
                     </p>
