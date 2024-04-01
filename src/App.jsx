@@ -10,7 +10,7 @@ import Oops from "./pages/Oops";
 const App = () => {
     return (
         <>
-            <div className="container mx-auto w-fit-content grid grid-cols-12 gap-20">
+            <div className="container w-11/12 mx-auto flex flex-col gap-20 sm:w-10/12 md:w-9/12">
                 <HashRouter basename={"/"}>
                     <NavBar />
                     <ScrollToTop />

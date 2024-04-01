@@ -1,11 +1,11 @@
 const ContactForm = (props) => {
     return (
-        <div className="col-span-12 bg-sea-green-light rounded-3xl drop-shadow-md">
+        <div className="bg-sea-green-light rounded-3xl drop-shadow-md">
             <h1 className="text-h3 uppercase font-LS text-oxford-blue text-center my-7">
                 {props.title}
             </h1>
-            <form className="mx-24 mb-14">
-                <div className="flex justify-between">
+            <form className="mx-12 lg:mx-24 mb-14">
+                <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-4">
                     <div>
                         <label
                             htmlFor="name"
@@ -18,7 +18,7 @@ const ContactForm = (props) => {
                             type="text"
                             id="name"
                             name="name"
-                            className="w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:outline-none focus:ring-sea-green focus:ring-4"
+                            className="w-full mb-6 xl:w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:outline-none focus:ring-sea-green focus:ring-4"
                         ></input>
                     </div>
                     <div>
@@ -33,7 +33,7 @@ const ContactForm = (props) => {
                             type="text"
                             id="email"
                             name="email"
-                            className="w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:outline-none focus:ring-sea-green focus:ring-4"
+                            className="w-full mb-6 xl:w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:outline-none focus:ring-sea-green focus:ring-4"
                         ></input>
                     </div>
                     <div>
@@ -48,7 +48,7 @@ const ContactForm = (props) => {
                             type="text"
                             id="phone"
                             name="phone"
-                            className="w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:outline-none focus:ring-sea-green focus:ring-4"
+                            className="w-full mb-6 xl:w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:outline-none focus:ring-sea-green focus:ring-4"
                         ></input>
                     </div>
                 </div>

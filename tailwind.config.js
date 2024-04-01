@@ -23,10 +23,11 @@ export default {
                 h1: ["8rem", { fontWeight: "700" }],
             },
             gridTemplateColumns: {
-                12: "repeat(12, 5.5rem)",
+                12: "repeat(12, auto)",
             },
             gap: {
                 20: "1.25rem",
+                5: "0.25rem"
             },
             width: {
                 "fit-content": "fit-content",
