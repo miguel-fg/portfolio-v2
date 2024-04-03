@@ -29,7 +29,7 @@ const NavBar = () => {
                     </div>
                 <div className={`${showMenu ? "" : "hidden"} w-full lg:block lg:w-auto`}>
                     <ul className="block w-full lg:w-fit-content h-fit-content flex flex-col lg:flex-row lg:self-center lg:items-center">
-                        <li className="flex py-6 lg:py-0 lg:self-center lg:mr-20 block border-b border-sea-green border-opacity-50 lg:border-b-0">
+                        <li className="flex py-6 lg:py-0 lg:self-center lg:mr-12 xl:mr-20 block border-b border-sea-green border-opacity-50 lg:border-b-0">
                             <Link
                                 to="/"
                                 className="text-h3 font-LS uppercase text-oxford-blue hover:underline hover:decoration-2 rounded-xl active:text-sea-green"
@@ -37,7 +37,7 @@ const NavBar = () => {
                                 Home
                             </Link>
                         </li>
-                        <li className="flex py-6 lg:py-0 lg:self-center lg:mr-20 block border-b border-sea-green border-opacity-50 lg:border-b-0">
+                        <li className="flex py-6 lg:py-0 lg:self-center lg:mr-12 xl:mr-20 block border-b border-sea-green border-opacity-50 lg:border-b-0">
                             <Link
                                 to="/about"
                                 className="text-h3 font-LS uppercase text-oxford-blue hover:underline hover:decoration-2 rounded-xl active:text-sea-green"
@@ -45,7 +45,7 @@ const NavBar = () => {
                                 About
                             </Link>
                         </li>
-                        <li className="flex py-6 lg:py-0 lg:self-center lg:mr-20 block border-b border-sea-green border-opacity-50 lg:border-b-0">
+                        <li className="flex py-6 lg:py-0 lg:self-center lg:mr-12 xl:mr-20 block border-b border-sea-green border-opacity-50 lg:border-b-0">
                             <Link
                                 to="/portfolio"
                                 className="text-h3 text-nowrap font-LS uppercase text-oxford-blue hover:underline hover:decoration-2 rounded-xl active:text-sea-green"
