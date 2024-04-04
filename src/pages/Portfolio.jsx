@@ -13,15 +13,15 @@ const Portfolio = () => {
 
     return (
         <>
-            <h1 className="text-h1 font-LS text-oxford-blue col-span-12 text-center mt-10 leading-none">
+            <h1 className="text-h1 lg:text-h1lg font-LS text-oxford-blue text-center mt-10 leading-none">
                 My Work
             </h1>
             <Divider />
-            <div className="col-span-12 space-y-16">
+            <div className="space-y-16">
                 {items}
             </div>
             <Divider />
-            <ContactForm title="questions, suggestions, comments?" />
+            <ContactForm title="ready to talk about your project?" />
             <Divider />
             <Footer />
         </>

@@ -15,7 +15,7 @@ const Home = () => {
             <h2 className="text-subtitle font-MT text-oxford-blue leading-tight">
                 Software & web developer
             </h2>
-            <p className="text-xl text-oxford-blue font-MT mt-6">
+            <p className="text-xl lg:text-2xl text-oxford-blue font-MT mt-6">
                 I make accessible full stack web applications.
             </p>
             <div className="flex flex-col w-9/12 lg:flex-row gap-20">
