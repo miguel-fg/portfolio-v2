@@ -70,7 +70,7 @@ const ContactForm = (props) => {
                 <div className="flex items-center justify-center">
                     <button
                         disabled
-                        className="bg-oxford-blue text-alabaster text-h3 font-LS uppercase py-2.5 px-24 rounded-xl drop-shadow-sm disabled:opacity-70"
+                        className="bg-oxford-blue text-alabaster text-h3 font-LS uppercase py-2.5 px-12 lg:px-24 rounded-xl drop-shadow-sm disabled:opacity-70"
                     >
                         Submit
                     </button>
