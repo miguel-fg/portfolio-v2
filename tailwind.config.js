@@ -17,10 +17,11 @@ export default {
             fontSize: {
                 body: ["1.25rem", { lineHeight: "130%", fontWeight: "400" }],
                 "sub-subtitle": ["2.25rem", { fontWeight: "400" }],
-                subtitle: ["3rem", { fontWeight: "400" }],
+                subtitle: ["2.5rem", { fontWeight: "400" }],
                 h3: ["1.5rem", { letterSpacing: "0.05em", fontWeight: "600" }],
                 h2: ["4rem", { fontWeight: "700" }],
-                h1: ["8rem", { fontWeight: "700" }],
+                h1: ["6rem", { fontWeight: "700" }],
+                h1lg: ["8rem", { fontWeight: "700"}]
             },
             gridTemplateColumns: {
                 12: "repeat(12, auto)",

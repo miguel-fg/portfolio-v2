@@ -9,25 +9,25 @@ import home from "../images/photos/home.jpg";
 const Home = () => {
     return (
         <>
-            <h1 className="text-h1 font-LS text-oxford-blue mt-10 leading-none">
+            <h1 className="text-h1 md:text-h1lg font-LS text-oxford-blue mt-10 leading-none">
                 Miguel Fierro.
             </h1>
             <h2 className="text-subtitle font-MT text-oxford-blue leading-tight">
                 Software & web developer
             </h2>
-            <p className="text-2xl text-oxford-blue font-MT mt-4">
+            <p className="text-xl text-oxford-blue font-MT mt-6">
                 I make accessible full stack web applications.
             </p>
             <div className="flex flex-col w-9/12 lg:flex-row gap-20">
                 <Link
                     to="/portfolio"
-                    className="bg-sea-green border-4 border-sea-green text-center px-10 py-2.5 rounded-xl drop-shadow-md text-h3 text-nowrap uppercase font-LS text-alabaster mt-16 active:bg-oxford-blue active:border-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4"
+                    className="bg-sea-green border-4 border-sea-green text-center px-5 md:px-10 py-2.5 rounded-xl drop-shadow-md text-h3 text-nowrap uppercase font-LS text-alabaster mt-0 lg:mt-16 active:bg-oxford-blue active:border-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4"
                 >
                     See my work
                 </Link>
                 <Link
                     to="/contact"
-                    className="bg-alabaster border-4 border-sea-green text-center px-10 py-2.5 rounded-xl drop-shadow-md text-h3 text-nowrap uppercase font-LS text-oxford-blue mt-0 lg:mt-16 active:bg-oxford-blue active:text-alabaster active:border-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4 focus:border-alabaster"
+                    className="bg-alabaster border-4 border-sea-green text-center px-5 md:px-10 py-2.5 rounded-xl drop-shadow-md text-h3 text-nowrap uppercase font-LS text-oxford-blue mt-0 lg:mt-16 active:bg-oxford-blue active:text-alabaster active:border-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4 focus:border-alabaster"
                 >
                     Get in touch
                 </Link>
@@ -129,7 +129,7 @@ const Home = () => {
                     </p>
                     <Link
                         to="/portfolio"
-                        className="bg-sea-green text-center text-nowrap px-10 py-3 rounded-xl drop-shadow-md text-h3 uppercase font-LS text-alabaster active:bg-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4"
+                        className="bg-sea-green text-center text-nowrap px-5 md:px-10 py-3 rounded-xl drop-shadow-md text-h3 uppercase font-LS text-alabaster active:bg-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4"
                     >
                         View my projects
                     </Link>
