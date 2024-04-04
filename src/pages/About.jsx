@@ -43,8 +43,7 @@ const About = () => {
                 </p>
                 <br />
                 <p>
-                    My professional journey has been dynamic. It began with a
-                    position as a Python instructor at{" "}
+                    I've had a dynamic professional journey, starting as a Python instructor at{" "}
                     <Link
                         to="https://www.linkedin.com/company/grupoaerobot/about/"
                         target="_blank"
@@ -53,22 +52,20 @@ const About = () => {
                     >
                         Aerobot Academy
                     </Link>
-                    , where I had the privilege of guiding 3 generations of
-                    students through the program and instill the love for
-                    technology and the responsibility that comes with learning
-                    it.
+                    . There, I had the opportunity to mentor three cohorts of
+                    students, nurturing their passion for technology and emphasizing the importance of using their tehcnical skills responsibly, with a focus on social impact.
                 </p>
                 <br />
                 <p>
                     Later, I ventured as a 3D printing lab coordinator for my
-                    university, ITESM. Here, I explored the intersection between
+                    university, Tec de Monterrey. Here, I explored the intersection between
                     technology and manufacturing, and applied automation
                     techniques to streamline processes from design to
                     production.
                 </p>
                 <br />
                 <p>
-                    I then held a software deveolpment position at{" "}
+                    I then held a software development position at{" "}
                     <Link
                         to="https://intesc.mx/quienes-somos/"
                         target="_blank"
