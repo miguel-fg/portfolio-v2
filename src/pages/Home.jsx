@@ -124,7 +124,7 @@ const Home = () => {
                     </div>
                     <p className="text-body font-MT text-oxford-blue mb-8 lg:mb-20">
                         Using the latest design standards, I ensure the best user
-                        experience possible while giving each site an attractice and
+                        experience possible while giving each site an attractive and
                         distinctive identity.
                     </p>
                     <Link
