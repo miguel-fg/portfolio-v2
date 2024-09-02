@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const ProjectItem = (props) => {
-    const { name, subtitle, description, thumbnail } = props.project;
+    const { name, url_name, subtitle, description, thumbnail } = props.project;
 
     return (
         <div className="flex flex-col md:flex-row">
@@ -28,7 +28,7 @@ const ProjectItem = (props) => {
                     {description}
                 </p>
                 <Link
-                    to="/oops"
+                    to={`/project/${url_name}`}
                     className="mt-4 mb-10 md:mb-2 bg-sea-green w-fit text-h3 font-LS uppercase text-alabaster px-10 py-2.5 rounded-xl drop-shadow-md active:bg-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4"
                 >
                     Learn More

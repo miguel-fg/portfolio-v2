@@ -1,0 +1,37 @@
+{
+  "name": "Cash Flow",
+  "subtitle": "PERSONAL BUDGET ASSISTANT",
+  "description": "Cash Flow is a mobile application designed to help users manage their finances by tracking income, expenses, and budgets. This is the second iteration of Cash Flow, now built with React Native and Expo, using a local SQLite database. The app provides an intuitive and convenient way to log transactions, monitor account balances, and set spending limits directly from your mobile device.",
+  "features": [
+    {
+      "title": "Authentication",
+      "description": "Secure local user authentication with hashed and salted passwords."
+    },
+    {
+      "title": "Account Management",
+      "description": "Add and manage multiple accounts, with balance, income, and expense tracking."
+    },
+    {
+      "title": "Transaction Tracking",
+      "description": "Log income and expenses with ease, view transaction history, and monitor balance changes over time with a dynamic graph."
+    },
+    {
+      "title": "Budget Management",
+      "description": "Set spending limits for categories, visualize spending distribution with a pie chart, and receive alerts when budget limits are reached or exceeded."
+    },
+    {
+      "title": "Data Visualization",
+      "description": "Balance and category spending charts to help users understand their financial habits."
+    }
+  ],
+  "stack": ["React Native", "Node JS", "SQLite", "Expo"],
+  "gallery": [
+    "/portfolio-v2/galleries/cashflow/0.jpg",
+    "/portfolio-v2/galleries/cashflow/1.jpg",
+    "/portfolio-v2/galleries/cashflow/2.jpg",
+    "/portfolio-v2/galleries/cashflow/3.jpg",
+    "/portfolio-v2/galleries/cashflow/4.jpg"
+  ],
+  "viewport": "mobile",
+  "gh_url": "https://github.com/miguel-fg/cashflow-v2"
+}
