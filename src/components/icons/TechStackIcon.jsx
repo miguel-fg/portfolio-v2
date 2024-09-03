@@ -3,6 +3,9 @@ import {
   SiExpo,
   SiSqlite,
   SiNodedotjs,
+  SiTailwindcss,
+  SiOpenai,
+  SiAdobe
 } from '@icons-pack/react-simple-icons';
 
 const TechStackIcon = (props) => {
@@ -21,6 +24,12 @@ const TechStackIcon = (props) => {
       return <SiSqlite title='SQLite brand icon' className={`${className}`} />;
     case 'Expo':
       return <SiExpo title='Expo brand icon' className={`${className}`} />;
+    case 'Tailwind CSS':
+      return <SiTailwindcss title='Tailwind CSS brand icon' className={`${className}`} />
+    case 'OpenAI API':
+      return <SiOpenai title='OpenAI brand icon' className={`${className}`} />;
+    case 'AdobePDF API':
+      return <SiAdobe title='Adobe brand icon' className={`${className}`} />
   }
 };
 

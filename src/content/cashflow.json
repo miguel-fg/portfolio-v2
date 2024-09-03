@@ -1,7 +1,7 @@
 {
   "name": "Cash Flow",
   "subtitle": "PERSONAL BUDGET ASSISTANT",
-  "description": "Cash Flow is a mobile application designed to help users manage their finances by tracking income, expenses, and budgets. This is the second iteration of Cash Flow, now built with React Native and Expo, using a local SQLite database. The app provides an intuitive and convenient way to log transactions, monitor account balances, and set spending limits directly from your mobile device.",
+  "description": "Cash Flow is a mobile application designed to help users manage their finances by tracking income, expenses, and budgets. The app provides an intuitive and convenient way to log transactions, monitor account balances, and set spending limits directly from your mobile device.",
   "features": [
     {
       "title": "Authentication",

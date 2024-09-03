@@ -1,0 +1,28 @@
+{
+  "name": "IntelliQuiz",
+  "subtitle": "AI-POWERED QUIZ MAKER APP",
+  "description": "IntelliQuiz is designed for students who wish to streamline study sessions and instructors who want to simplify quiz creation for their classes. The app takes text from the user interface or PDF documents and uses AI to generate a quiz which can be attempted within the app or downloaded as a PDF file.",
+  "features": [
+    {
+      "title": "AI Quiz Generation",
+      "description": "Generate questions based on your text input or PDF file."
+    },
+    {
+        "title": "Hints & Explanations",
+        "description": "Overcome challenging and confusing questions with AI-generated hints."
+    },
+    {
+        "title": "Quiz Feedback",
+        "description": "Understand your strengths and gaps in knowledge on any topic."
+    },
+    {
+        "title": "PDF File Generation",
+        "description": "Take your quiz with you as a file with optional password protection and marked answers."
+    }
+  ],
+  "stack": ["React", "Tailwind CSS", "Node JS", "OpenAI API", "AdobePDF API"],
+  "gallery": [],
+  "viewport": "desktop",
+  "gh_url": "https://github.com/miguel-fg/Intelliquiz",
+  "web_url": ""
+}

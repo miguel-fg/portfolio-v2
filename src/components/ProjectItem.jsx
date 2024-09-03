@@ -9,7 +9,7 @@ const ProjectItem = (props) => {
                 <img
                     src={thumbnail}
                     alt="Project thumbnail"
-                    className="rounded-3xl md:max-w-80 lg:max-w-96 drop-shadow-lg"
+                    className="rounded-2xl md:max-w-80 lg:max-w-96 drop-shadow-lg"
                 />
             </div>
             <div className="md:ml-5 lg:ml-10 flex flex-col justify-between">
@@ -20,7 +20,7 @@ const ProjectItem = (props) => {
                     <img
                         src={thumbnail}
                         alt="Project thumbnail"
-                        className="rounded-3xl drop-shadow-lg" 
+                        className="rounded-2xl drop-shadow-lg" 
                     />
                 </div>                 
                 <h3 className="mt-2 text-h3 font-LS text-oxford-blue">{subtitle}</h3>

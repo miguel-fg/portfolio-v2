@@ -73,6 +73,32 @@ const ProjectDetails = () => {
             imagePaths={projectData.gallery}
             orientation={projectData.viewport}
           />
+          <div className='flex flex-col w-full lg:flex-row gap-6 justify-center'>
+            {projectData.web_url ? (
+              <Link
+                to={projectData.web_url}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='bg-sea-green border-4 border-sea-green text-center px-5 md:px-10 py-2.5 rounded-xl drop-shadow-md text-h3 text-nowrap uppercase font-LS text-alabaster mt-6 active:bg-oxford-blue active:border-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4'
+              >
+                Website
+              </Link>
+            ) : (
+              <></>
+            )}
+            {projectData.gh_url ? (
+              <Link
+                to={projectData.gh_url}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='bg-alabaster border-4 border-sea-green text-center px-5 md:px-10 py-2.5 rounded-xl drop-shadow-md text-h3 text-nowrap uppercase font-LS text-oxford-blue mt-6 active:bg-oxford-blue active:text-alabaster active:border-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4 focus:border-alabaster'
+              >
+                Github
+              </Link>
+            ) : (
+              <></>
+            )}
+          </div>
         </div>
         <div className='mt-6 lg:hidden'>
           <h3 className='text-h3 font-LS uppercase mb-2 text-oxford-blue'>
@@ -97,7 +123,7 @@ const ProjectDetails = () => {
         </div>
       </div>
       <Divider />
-      <ContactForm title="send me a message" />
+      <ContactForm title='send me a message' />
       <Divider />
       <Footer />
     </>
