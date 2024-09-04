@@ -1,32 +1,20 @@
 {
     "projects": [
+      {
+          "id": 0,
+          "name": "Cash Flow",
+          "url_name": "cashflow",
+          "subtitle": "PERSONAL BUDGET ASSISTANT",
+          "description": "A budgeting application to track personal expenses in a user-friendly dashboard. Built using React, Express, Node.js and MongoDB. The app keeps user information secure using JSON Web Tokens.",
+          "thumbnail": "/portfolio-v2/thumbnails/cashflow.png"
+      },
         {
-            "id": 0,
-            "name": "IntelliQuiz",
-            "subtitle": "AI-POWERED QUIZ MAKER APP",
-            "description": "This application leverages the OpenAI API to generate questions based on text or PDF files for users to attempt in the site or to download as PDF quiz. The user interface was built using React and Bootstrap.",
-            "thumbnail": "/portfolio-v2/thumbnails/intelliquiz.png"
-        },
-        {
-            "id": 1,
-            "name": "CashFlow",
-            "subtitle": "PERSONAL BUDGET ASSISTANT",
-            "description": "A budgeting application to track personal expenses in a user-friendly dashboard. Built using React, Express, Node.js and MongoDB. The app keeps user information secure using JSON Web Tokens.",
-            "thumbnail": "/portfolio-v2/thumbnails/cashflow.png"
-        },
-        {
-            "id": 2,
-            "name": "Bite Balance",
-            "subtitle": "ONLINE NUTRITION TRACKER",
-            "description": "A platform to track macronutrient intake and Body Mass Index (BMI) changes. Powered by the Nutritionix API, the app offers the most accurate nutrition information possible. Built using a compact Vue and Firebase stack.",
-            "thumbnail": "/portfolio-v2/thumbnails/bitebalance.png"
-        },
-        {
-            "id": 3,
-            "name": "Open Canvas",
-            "subtitle": "ART PROJECT MANAGEMENT PLATFORM",
-            "description": "Interactive canvas with popular art tools to use on new or previous projects. Originally built using JS, PHP, and MySQL. The project is currently being refactored into a Vue + Firebase app for better scalability and user support.",
-            "thumbnail": "/portfolio-v2/thumbnails/opencanvas.png"
+          "id": 1,
+          "name": "IntelliQuiz",
+          "url_name": "intelliquiz",
+          "subtitle": "AI-POWERED QUIZ MAKER APP",
+          "description": "This application leverages the OpenAI API to generate questions based on text or PDF files for users to attempt in the site or to download as PDF quiz. The user interface was built using React and Tailwind CSS.",
+          "thumbnail": "/portfolio-v2/thumbnails/intelliquiz.png"
         }
     ]
 }

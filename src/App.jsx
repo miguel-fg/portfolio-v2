@@ -6,6 +6,7 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import NavBar from "./components/NavBar";
 import Oops from "./pages/Oops";
+import ProjectDetails from "./pages/ProjectDetails";
 
 const App = () => {
     return (
@@ -18,6 +19,7 @@ const App = () => {
                         <Route index path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/portfolio" element={<Portfolio />} />
+                        <Route path="/project/:projectId" element={<ProjectDetails /> } />
                         <Route path="/contact" element={<Contact />} />
                         <Route path="/oops" element={<Oops />} />
                     </Routes>

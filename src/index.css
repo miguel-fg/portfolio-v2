@@ -3,8 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    html {
-        @apply bg-alabaster;
-    }
+@layer base {
+  html {
+    @apply bg-alabaster;
+  }
 }
