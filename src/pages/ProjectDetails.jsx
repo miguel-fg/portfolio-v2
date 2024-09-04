@@ -23,7 +23,7 @@ const ProjectDetails = () => {
 
   return (
     <>
-      <h1 className='text-h1 lg:text-h1lg font-LS text-oxford-blue text-center mt-10 leading-none truncate'>
+      <h1 className='text-h2 md:text-h1 lg:text-h1lg font-LS text-oxford-blue text-center mt-10 leading-none text-wrap truncate'>
         {projectData.name}
       </h1>
       <p className='md:w-10/12 lg:w-9/12 md:self-center text-xl lg:text-2xl font-MT text-oxford-blue text-center'>
