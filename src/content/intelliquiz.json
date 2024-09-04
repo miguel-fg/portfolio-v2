@@ -21,8 +21,13 @@
     }
   ],
   "stack": ["React", "Tailwind CSS", "Node JS", "OpenAI API", "AdobePDF API"],
-  "gallery": [],
+  "gallery": [
+    "/portfolio-v2/galleries/intelliquiz/0.png",
+    "/portfolio-v2/galleries/intelliquiz/1.png",
+    "/portfolio-v2/galleries/intelliquiz/2.png",
+    "/portfolio-v2/galleries/intelliquiz/3.png"
+  ],
   "viewport": "desktop",
-  "gh_url": "https://github.com/miguel-fg/Intelliquiz",
-  "web_url": ""
+  "gh_url": "https://github.com/miguel-fg/intelliquiz",
+  "web_url": "https://miguel-fg.github.io/intelliquiz/"
 }
