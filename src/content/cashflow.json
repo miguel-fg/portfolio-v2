@@ -26,11 +26,11 @@
   ],
   "stack": ["React Native", "Node JS", "SQLite", "Expo"],
   "gallery": [
-    "/portfolio-v2/galleries/cashflow/0.jpg",
-    "/portfolio-v2/galleries/cashflow/1.jpg",
-    "/portfolio-v2/galleries/cashflow/2.jpg",
-    "/portfolio-v2/galleries/cashflow/3.jpg",
-    "/portfolio-v2/galleries/cashflow/4.jpg"
+    "/galleries/cashflow/0.jpg",
+    "/galleries/cashflow/1.jpg",
+    "/galleries/cashflow/2.jpg",
+    "/galleries/cashflow/3.jpg",
+    "/galleries/cashflow/4.jpg"
   ],
   "viewport": "mobile",
   "gh_url": "https://github.com/miguel-fg/cashflow-v2"
