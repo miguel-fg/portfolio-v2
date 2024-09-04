@@ -73,22 +73,22 @@ const Home = () => {
             <div className="lg:grid lg:grid-cols-2 lg:gap-6">
                 <div className="hidden lg:grid lg:grid-cols-2 lg:gap-3 lg:col-span-1 ">
                     <img
-                        src="/portfolio-v2/thumbnails/cashflow.png"
+                        src="/thumbnails/cashflow.png"
                         alt="Cash flow project thumbnail"
                         className="col-span-1 rounded-2xl drop-shadow-lg"
                     />
                     <img
-                        src="/portfolio-v2/thumbnails/opencanvas.png"
+                        src="/thumbnails/opencanvas.png"
                         alt="Open canvas project thumbnail"
                         className="col-span-1 rounded-2xl drop-shadow-lg"
                     />
                     <img
-                        src="/portfolio-v2/thumbnails/intelliquiz.png"
+                        src="/thumbnails/intelliquiz.png"
                         alt="Intelliquiz project thumbnail"
                         className="col-span-1 rounded-2xl drop-shadow-lg"
                     />
                     <img
-                        src="/portfolio-v2/thumbnails/bitebalance.png"
+                        src="/thumbnails/bitebalance.png"
                         alt="Bitebalance project thumbnail"
                         className="col-span-1 rounded-2xl drop-shadow-lg"
                     />
@@ -102,22 +102,22 @@ const Home = () => {
                     </h2>
                     <div className="lg:hidden grid grid-cols-2 gap-3 mb-6">
                         <img
-                            src="/portfolio-v2/thumbnails/cashflow.png"
+                            src="/thumbnails/cashflow.png"
                             alt="Cashflow project thumbnail"
                             className="rounded-2xl drop-shadow-lg col-span-1" 
                         />
                         <img
-                            src="/portfolio-v2/thumbnails/opencanvas.png"
+                            src="/thumbnails/opencanvas.png"
                             alt="Open Canvas project thumbnail"
                             className="rounded-2xl drop-shadow-lg col-span-1" 
                         />
                         <img
-                            src="/portfolio-v2/thumbnails/intelliquiz.png"
+                            src="/thumbnails/intelliquiz.png"
                             alt="Intelliquiz project thumbnail"
                             className="rounded-2xl drop-shadow-lg col-span-1" 
                         />
                         <img
-                            src="/portfolio-v2/thumbnails/bitebalance.png"
+                            src="/thumbnails/bitebalance.png"
                             alt="Bite balance project thumbnail"
                             className="rounded-2xl drop-shadow-lg col-span-1" 
                         />
