@@ -8,7 +8,7 @@ const ImageGallery = (props) => {
   const [imgIndex, setImgIndex] = useState(0);
   const [selectedImg, setSelectedImg] = useState(imagePaths[0]);
   const lastIndex = imagePaths.length - 1;
-  const maxWidth = orientation === 'mobile' ? 'max-w-80' : 'w-10/12 min-w-64 md:min-w-96';
+  const maxWidth = orientation === 'mobile' ? 'max-w-56 md:max-w-80' : 'w-10/12 min-w-64 md:min-w-96';
 
   const nextImg = () => {
     imgIndex === lastIndex ? setImgIndex(0) : setImgIndex(imgIndex + 1);
