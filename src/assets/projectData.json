@@ -5,7 +5,7 @@
           "name": "Cash Flow",
           "url_name": "cashflow",
           "subtitle": "PERSONAL BUDGET ASSISTANT",
-          "description": "A budgeting application to track personal expenses in a user-friendly dashboard. Built using React, Express, Node.js and MongoDB. The app keeps user information secure using JSON Web Tokens.",
+          "description": "A budgeting mobile application to track personal expenses in a user-friendly dashboard. Add accounts, log transactions, set spending limits; all in one place.",
           "thumbnail": "/thumbnails/cashflow.png"
       },
         {
@@ -13,7 +13,7 @@
           "name": "IntelliQuiz",
           "url_name": "intelliquiz",
           "subtitle": "AI-POWERED QUIZ MAKER APP",
-          "description": "This application leverages the OpenAI API to generate questions based on text or PDF files for users to attempt in the site or to download as PDF quiz. The user interface was built using React and Tailwind CSS.",
+          "description": "This web application uses OpenAI to generate questions based on text or PDF files. You can attempt the quiz on the site or take it with you as a PDF.",
           "thumbnail": "/thumbnails/intelliquiz.png"
         }
     ]

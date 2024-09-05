@@ -3,6 +3,8 @@ import logo from "../images/m.svg";
 import resumePDF from "../assets/mfierro-resume.pdf";
 
 const Footer = () => {
+    const email = 'hello' + '@' + 'miguel' + '-' + 'fierro' + '.' + 'com'
+    const phone = '+1' + ' (778)' + ' 317' + '-' + '3727';
 
     const downloadPDF = () => {
         console.log("Starting PDF download...");
@@ -97,10 +99,10 @@ const Footer = () => {
                         Contact Me
                     </p>
                     <p className="text-body font-MT mb-3 text-oxford-blue">
-                        miguel_fierrog@outlook.com
+                        {email}
                     </p>
                     <p className="text-body font-MT mb-3 text-oxford-blue">
-                        +1 (778) 317 3727
+                        {phone}
                     </p>
                     <p className="text-body font-MT mb-3 text-oxford-blue">
                         Based in Vancouver, BC.
