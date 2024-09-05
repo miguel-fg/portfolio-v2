@@ -25,7 +25,7 @@ const About = () => {
             <div className="lg:grid lg:grid-cols-2 lg:gap-6">
                 <div className="text-body font-MT lg:col-span-1 text-oxford-blue">
                     <p>
-                        In 2021, I completed my Bachelor&apos;s degree in Digital
+                        I completed my Bachelor&apos;s degree in Digital
                         Systems and Robotics Engineering at{" "}
                         <Link
                             to="https://tec.mx/en"
@@ -35,8 +35,7 @@ const About = () => {
                         >
                             Tec de Monterrey
                         </Link>
-                        . After which I decided to focus on Computer Science and
-                        enroll in a diploma at{" "}
+                        . After which I decided to enroll and finish a Diploma in Computer Studies at{" "}
                         <Link
                             to="https://langara.ca/"
                             target="_blank"
@@ -49,7 +48,7 @@ const About = () => {
                     </p>
                     <br />
                     <p>
-                        I've had a dynamic professional journey, starting as a Python instructor at{" "}
+                        I started my professional journey as a Python instructor at{" "}
                         <Link
                             to="https://www.linkedin.com/company/grupoaerobot/about/"
                             target="_blank"
@@ -58,7 +57,7 @@ const About = () => {
                         >
                             Aerobot Academy
                         </Link>
-                        . There, I had the opportunity to mentor three cohorts of
+                        . There, I had the opportunity to mentor three groups of
                         students, nurturing their passion for technology and emphasizing the importance of using their tehcnical skills responsibly, with a focus on social impact.
                     </p>
                     <br />
@@ -94,16 +93,14 @@ const About = () => {
                     </p>
                     <br />
                     <p>
-                        My decision to pivot towards software and web development
-                        brought me to Vancouver to pursue new opportunities in this
-                        field.
+                        Currently, I am working as a freelance web developer, collaborating with clients to build custom web applications that meet their specific needs and goals.
                     </p>
                     <br />
                     <p>
                         Over the years, I have acquired a versatile skill set
                         encompassing frontend technologies like HTML, CSS, Tailwind,
                         React, and Vue; backend tools including Node, PHP, and
-                        Python; database management with MySQL and MongoDB; and
+                        Python; database management with PostgreSQL and MongoDB; and
                         RESTful API development with Express and FastAPI.
                     </p>
                 </div>
