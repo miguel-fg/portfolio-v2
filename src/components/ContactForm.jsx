@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import emailjs from 'emailjs-com';
 
 const ContactForm = (props) => {
   const { title } = props;
@@ -9,6 +10,8 @@ const ContactForm = (props) => {
   const [message, setMessage] = useState('');
   const [isFormValid, setIsFormValid] = useState(false);
   const [errors, setErrors] = useState({});
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   const validateForm = () => {
     let errors = {};
@@ -16,40 +19,75 @@ const ContactForm = (props) => {
     const emailRE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const phoneRE = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
 
-    if(!name) {
-        errors.name = 'Name cannot be empty';
-    } else if(!nameRE.test(name)) {
-        errors.name = 'Name can only contain letters and spaces';
+    if (!name) {
+      errors.name = 'Name cannot be empty';
+    } else if (!nameRE.test(name)) {
+      errors.name = 'Name can only contain letters and spaces';
     }
 
-    if(!email) {
-        errors.email = 'Email cannot be empty';
-    } else if(!emailRE.test(email)) {
-        errors.email = 'Email format is invalid';
+    if (!email) {
+      errors.email = 'Email cannot be empty';
+    } else if (!emailRE.test(email)) {
+      errors.email = 'Email format is invalid';
     }
 
-    if(phone && !phoneRE.test(phone)) {
-        errors.phone = 'Phone number format is invalid';
+    if (phone && !phoneRE.test(phone)) {
+      errors.phone = 'Phone number format is invalid';
     }
 
-    if(!message) {
-        errors.message = 'Message cannot be empty';
+    if (!message) {
+      errors.message = 'Message cannot be empty';
     }
 
     setErrors(errors);
     setIsFormValid(Object.keys(errors).length === 0);
-  }
+  };
+
+  const resetForm = () => {
+    setLoading(false);
+    setName('');
+    setEmail('');
+    setPhone('');
+    setMessage('');
+    setAttempted(false);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setAttempted(true);
 
-    if(isFormValid){
-        console.log("Form is valid. Submitting...");
+    if (isFormValid) {
+      setLoading(true);
+      const templateParams = {
+        name,
+        email,
+        phone: `${phone || 'Not provided'}`,
+        message,
+        subject: `New contact from ${name}`,
+      };
+
+      emailjs
+        .send(
+          import.meta.env.VITE_SERVICE_ID,
+          import.meta.env.VITE_TEMPLATE_ID,
+          templateParams,
+          import.meta.env.VITE_USER_ID
+        )
+        .then(
+          (response) => {
+            console.log('SUCCESS!', response.status, response.text);
+            setSuccess(true);
+            resetForm();
+          },
+          (err) => {
+            console.log('FAILED...', err);
+            setLoading(false);
+          }
+        );
     } else {
-        console.log("Form has errors.");
+      console.log('Form has errors.');
     }
-  }
+  };
 
   useEffect(() => {
     validateForm();
@@ -96,6 +134,7 @@ const ContactForm = (props) => {
               type='text'
               id='email'
               name='email'
+              disabled={loading}
               placeholder='your@email.com'
               className={`pl-1 w-full mb-1 xl:w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:border-none focus:outline-none focus:ring-sea-green focus:ring-4 ${
                 attempted && errors.email ? 'border-4 border-form-error' : ''
@@ -159,7 +198,7 @@ const ContactForm = (props) => {
         </div>
         <div className='flex items-center justify-center'>
           <button className='bg-oxford-blue text-alabaster text-h3 font-LS uppercase py-2.5 px-12 lg:px-24 rounded-xl drop-shadow-sm disabled:opacity-70'>
-            Submit
+            {loading ? 'Sending...' : 'Submit'}
           </button>
         </div>
       </form>
