@@ -74,11 +74,19 @@ const ContactForm = (props) => {
           import.meta.env.VITE_USER_ID
         ), {
           loading: 'Sending...',
-          success: "Thank you! I got your message and will get back to you shortly.",
-          error: "Something went wrong with the email service. Please try again later."
+          success: (data) => {
+            console.log("SUCCESS!", data.status, data.text);
+            setLoading(false);
+            return 'Thank you! I got your message and will get back to you shortly.';
+          },
+          error: (err) => {
+            console.error("ERROR!", err.toString());
+            setLoading(false);
+            return "Something went wrong with the email service. Please try again later."
+          }
         }, {
           style: {
-            minWidth: '250px'
+            minWidth: '300px'
           }
         });
       
@@ -95,7 +103,7 @@ const ContactForm = (props) => {
 
   return (
     <div className='bg-sea-green-light rounded-3xl drop-shadow-md'>
-    <Toaster toastOptions={{className: 'font-MT text-body'}} />
+    <Toaster toastOptions={{className: 'font-MT text-body', duration: 5000}} />
       <h1 className='text-h3 uppercase font-LS text-oxford-blue text-center my-7'>
         {title}
       </h1>
