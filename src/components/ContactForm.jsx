@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
+import toast, { Toaster } from 'react-hot-toast';
 
 const ContactForm = (props) => {
   const { title } = props;
@@ -11,7 +12,6 @@ const ContactForm = (props) => {
   const [isFormValid, setIsFormValid] = useState(false);
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
-  const [success, setSuccess] = useState(false);
 
   const validateForm = () => {
     let errors = {};
@@ -66,24 +66,24 @@ const ContactForm = (props) => {
         subject: `New contact from ${name}`,
       };
 
-      emailjs
+      await toast.promise(emailjs
         .send(
           import.meta.env.VITE_SERVICE_ID,
           import.meta.env.VITE_TEMPLATE_ID,
           templateParams,
           import.meta.env.VITE_USER_ID
-        )
-        .then(
-          (response) => {
-            console.log('SUCCESS!', response.status, response.text);
-            setSuccess(true);
-            resetForm();
-          },
-          (err) => {
-            console.log('FAILED...', err);
-            setLoading(false);
+        ), {
+          loading: 'Sending...',
+          success: "Thank you! I got your message and will get back to you shortly.",
+          error: "Something went wrong with the email service. Please try again later."
+        }, {
+          style: {
+            minWidth: '250px'
           }
-        );
+        });
+      
+      setLoading(false);
+      resetForm();
     } else {
       console.log('Form has errors.');
     }
@@ -95,6 +95,7 @@ const ContactForm = (props) => {
 
   return (
     <div className='bg-sea-green-light rounded-3xl drop-shadow-md'>
+    <Toaster toastOptions={{className: 'font-MT text-body'}} />
       <h1 className='text-h3 uppercase font-LS text-oxford-blue text-center my-7'>
         {title}
       </h1>
@@ -112,6 +113,7 @@ const ContactForm = (props) => {
               type='text'
               id='name'
               name='name'
+              value={name}
               placeholder='Jane Doe'
               className={`pl-1 w-full mb-1 xl:w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:border-none focus:outline-none focus:ring-sea-green focus:ring-4 ${
                 attempted && errors.name ? 'border-4 border-form-error' : ''
@@ -134,6 +136,7 @@ const ContactForm = (props) => {
               type='text'
               id='email'
               name='email'
+              value={email}
               disabled={loading}
               placeholder='your@email.com'
               className={`pl-1 w-full mb-1 xl:w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:border-none focus:outline-none focus:ring-sea-green focus:ring-4 ${
@@ -159,6 +162,7 @@ const ContactForm = (props) => {
               type='text'
               id='phone'
               name='phone'
+              value={phone}
               placeholder='123-456-7890'
               className={`w-full mb-1 xl:w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:border-none focus:outline-none focus:ring-sea-green focus:ring-4 ${
                 attempted && errors.phone ? 'border-4 border-form-error' : ''
@@ -183,6 +187,7 @@ const ContactForm = (props) => {
           <textarea
             id='message'
             name='message'
+            value={message}
             rows='8'
             placeholder='Say hi.'
             className={`pl-1 pt-1 w-full bg-alabaster rounded-xl text-oxford-blue text-body font-MT drop-shadow-sm focus:border-none focus:outline-none focus:ring-sea-green focus:ring-4 ${
