@@ -9,6 +9,7 @@ export default {
                 "sea-green": "#5C946E",
                 "sea-green-light": "#9BC0A7",
                 vlink: "#8D8253",
+                "form-error": "#C42021",
             },
             fontFamily: {
                 LS: ['"League Spartan"', "sans-serif"],
