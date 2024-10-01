@@ -1,4 +1,4 @@
-# Welcome to my personal portfolio code repository.
+# 👋 Welcome to my personal portfolio code repository.
 
 This site showcases my skills, projects, and contact information. I update it constantly when I take on new projects.
 
@@ -6,7 +6,7 @@ It is built with React, Tailwind CSS, and Vite to ensure a fast and responsive e
 
 ### [-> Visit the site here <-](https://miguel-fg.github.io/portfolio-v2)
 
-## Features
+## 💡 Features
 
 * **Responsive design**: Optimized for desktop, tablet, and mobile viewing.
 * **Modern UI**: Clean and minimal interface, styled with Tailwind CSS.
@@ -14,7 +14,7 @@ It is built with React, Tailwind CSS, and Vite to ensure a fast and responsive e
 * **Contact Form**: Visitors can send messages directly to my inbox via EmailJS.
 * **Project Showcase**: A collection of my projects, with links to GitHub repositories and deployed sites.
 
-## Tech Stack
+## 🧰 Tech Stack
 
 This site was built using:
 
@@ -28,4 +28,4 @@ This site was built using:
 * EmailJS
 
 ### Deployment
-* GitHub Pages
+* Render
