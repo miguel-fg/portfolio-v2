@@ -1,20 +1,20 @@
 {
-    "projects": [
-      {
-          "id": 0,
-          "name": "Cash Flow",
-          "url_name": "cashflow",
-          "subtitle": "PERSONAL BUDGET ASSISTANT",
-          "description": "A budgeting mobile application to track personal expenses in a user-friendly dashboard. Add accounts, log transactions, set spending limits; all in one place.",
-          "thumbnail": "/thumbnails/cashflow.png"
-      },
-        {
-          "id": 1,
-          "name": "IntelliQuiz",
-          "url_name": "intelliquiz",
-          "subtitle": "AI-POWERED QUIZ MAKER APP",
-          "description": "This web application uses OpenAI to generate questions based on text or PDF files. You can attempt the quiz on the site or take it with you as a PDF.",
-          "thumbnail": "/thumbnails/intelliquiz.png"
-        }
-    ]
+  "projects": [
+    {
+      "id": 0,
+      "name": "IntelliQuiz",
+      "url_name": "intelliquiz",
+      "subtitle": "AI-POWERED QUIZ MAKER APP",
+      "description": "This web application uses OpenAI to generate questions based on text or PDF files. You can attempt the quiz on the site or take it with you as a PDF.",
+      "thumbnail": "/thumbnails/intelliquiz.png"
+    },
+    {
+      "id": 1,
+      "name": "Cash Flow",
+      "url_name": "cashflow",
+      "subtitle": "PERSONAL BUDGET ASSISTANT",
+      "description": "A budgeting mobile application to track personal expenses in a user-friendly dashboard. Add accounts, log transactions, set spending limits; all in one place.",
+      "thumbnail": "/thumbnails/cashflow.png"
+    }
+  ]
 }

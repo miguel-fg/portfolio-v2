@@ -20,7 +20,7 @@
         "description": "Take your quiz with you as a file with optional password protection and marked answers."
     }
   ],
-  "stack": ["React", "Tailwind CSS", "Node JS", "OpenAI API", "AdobePDF API"],
+  "stack": ["React", "Tailwind CSS", "Hono", "Node JS", "OpenAI API", "AdobePDF API"],
   "gallery": [
     "/galleries/intelliquiz/0.png",
     "/galleries/intelliquiz/1.png",
