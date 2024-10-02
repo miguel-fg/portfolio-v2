@@ -79,6 +79,7 @@ const Home = () => {
             <StackIcon name='nodejs' className='col-span-1' />
             <StackIcon name='nuxtjs' className='col-span-1' />
             <StackIcon name='js' className='col-span-1' />
+            <StackIcon name='typescript' className='col-span-1' />
             <StackIcon name='mongodb' className='col-span-1' />
             <StackIcon name='postgresql' className='col-span-1' />
             <StackIcon name='tailwindcss' className='col-span-1' />
@@ -88,7 +89,6 @@ const Home = () => {
             <StackIcon name='github' className='col-span-1' />
             <StackIcon name='aws' className='col-span-1' />
             <StackIcon name='render' className='col-span-1' />
-            <StackIcon name='adobe' className='col-span-1' />
             <StackIcon name='openai' className='col-span-1' />
           </div>
           <div className='lg:col-span-1 lg:ml-6'>
@@ -105,6 +105,7 @@ const Home = () => {
               <StackIcon name='nodejs' className='col-span-1' />
               <StackIcon name='nuxtjs' className='col-span-1' />
               <StackIcon name='js' className='col-span-1' />
+              <StackIcon name='typescript' className='col-span-1'/>
               <StackIcon name='mongodb' className='col-span-1' />
               <StackIcon name='postgresql' className='col-span-1' />
               <StackIcon name='tailwindcss' className='col-span-1' />
@@ -114,7 +115,6 @@ const Home = () => {
               <StackIcon name='github' className='col-span-1' />
               <StackIcon name='aws' className='col-span-1' />
               <StackIcon name='render' className='col-span-1' />
-              <StackIcon name='adobe' className='col-span-1' />
               <StackIcon name='openai' className='col-span-1' />
             </div>
             <p className='text-body font-MT text-oxford-blue mb-8 lg:mb-10'>

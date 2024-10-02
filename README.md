@@ -4,7 +4,7 @@ This site showcases my skills, projects, and contact information. I update it co
 
 It is built with React, Tailwind CSS, and Vite to ensure a fast and responsive experience. I integrated EmailJS to handle form submissions without the need for a server or a FaaS serverless service.
 
-### [-> Visit the site here <-](https://miguel-fg.github.io/portfolio-v2)
+### [-> Visit the site here <-](https://miguel-fierro.com)
 
 ## 💡 Features
 
@@ -29,3 +29,7 @@ This site was built using:
 
 ### Deployment
 * Render
+
+## :envelope: Contact
+
+If you'd like to get in touch, feel free to use the contact form on [my website](https://miguel-fierro.com), or reach me via email at [hello@miguel-fierro.com](mailto:hello@miguel-fierro.com).

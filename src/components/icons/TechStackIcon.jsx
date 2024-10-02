@@ -5,7 +5,10 @@ import {
   SiNodedotjs,
   SiTailwindcss,
   SiOpenai,
-  SiAdobe
+  SiAdobe,
+  SiHono,
+  SiJavascript,
+  SiTypescript
 } from '@icons-pack/react-simple-icons';
 
 const TechStackIcon = (props) => {
@@ -30,6 +33,12 @@ const TechStackIcon = (props) => {
       return <SiOpenai title='OpenAI brand icon' className={`${className}`} />;
     case 'AdobePDF API':
       return <SiAdobe title='Adobe brand icon' className={`${className}`} />
+    case 'Hono':
+      return <SiHono title='Hono brand icon' className={`${className}`} />
+    case 'Javascript':
+      return <SiJavascript title='Javascript brand icon' className={`${className}`} />
+    case 'Typescript':
+      return <SiTypescript title='Typescript brand icon' className={`${className}`} />
   }
 };
 
