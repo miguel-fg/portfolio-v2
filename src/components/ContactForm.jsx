@@ -180,7 +180,7 @@ const ContactForm = (props) => {
                 name="phone"
                 value={phone}
                 placeholder="123-456-7890"
-                className={`w-full mb-1 xl:w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:border-none focus:outline-none focus:ring-sea-green focus:ring-4 ${
+                className={`pl-1 w-full mb-1 xl:w-72 h-12 rounded-xl bg-alabaster font-MT text-body text-oxford-blue drop-shadow-sm focus:border-none focus:outline-none focus:ring-sea-green focus:ring-4 ${
                   attempted && errors.phone ? "border-4 border-form-error" : ""
                 }`}
                 onChange={(e) => setPhone(e.target.value)}
