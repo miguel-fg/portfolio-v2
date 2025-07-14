@@ -7,7 +7,7 @@ function IconChevronBack(props) {
       viewBox="0 0 512 512"
       fill="#F1EFE7"
       {...props}
-      className="w-8 h-8 md:w-10 md:h-10 lg:w-14 lg:h-14"
+      className="w-10 md:h-10 lg:w-14 lg:h-14"
     >
       <path
         fill="none"

@@ -36,11 +36,11 @@ const ProjectGallery = (props) => {
       aria-modal="true"
     >
       <div
-        className="fixed inset-0 bg-grayscale-900/75 transition-opacity flex items-center justify-center"
+        className="fixed inset-0 bg-grayscale-900/90 transition-opacity flex items-center justify-center"
         aria-hidden="true"
       >
-        <div className="flex flex-col items-center bg-grayscale-900/50 size-11/12 mx-auto rounded-xl">
-          <div className="w-full pt-2 pr-2 flex justify-end">
+        <div className="flex flex-col items-center size-11/12 mx-auto rounded-xl">
+          <div className="w-full flex justify-end">
             <button
               onClick={closeModal}
               className="hover:bg-grayscale-900/50 p-1 rounded-md"
@@ -73,16 +73,16 @@ const ProjectGallery = (props) => {
               <></>
             )}
           </div>
-          <div className="flex w-full items-center justify-center">
+          <div className="flex w-full items-center justify-center h-full">
             <div className="flex flex-row items-center justify-around w-full">
               <div
-                className="rounded-md hover:bg-grayscale-900/50 hover:cursor-pointer active:bg-grayscale-900/70"
+                className="rounded-md hover:bg-grayscale-900/50 hover:cursor-pointer active:bg-grayscale-900/70 py-2"
                 onClick={prevImg}
               >
                 <IconChevronBack />
               </div>
               <div
-                className={`relative overflow-y-auto overflow-x-hidden rounded-xl drop-shadow-md ${viewport === "mobile" ? "w-auto h-[75vh] aspect-[393/852]" : "w-[75vw] max-h-[75vh] aspect-[16/9]"}`}
+                className={`relative overflow-y-auto overflow-x-hidden rounded-xl drop-shadow-md ${viewport === "mobile" ? "w-auto h-[65vh] md:h-[75vh] aspect-[393/852]" : "w-[75vw] max-h-[75vh] aspect-[16/9]"}`}
               >
                 <img
                   src={selectedImg}
@@ -91,7 +91,7 @@ const ProjectGallery = (props) => {
                 />
               </div>
               <div
-                className="rounded-md hover:bg-grayscale-900/50 hover:cursor-pointer active:bg-grayscale-900/70"
+                className="rounded-md hover:bg-grayscale-900/50 hover:cursor-pointer active:bg-grayscale-900/70 py-2"
                 onClick={nextImg}
               >
                 <IconChevronForward />
