@@ -1,0 +1,45 @@
+{
+  "name": "Bite Balance",
+  "subtitle": "NUTRITION TRACKER WITH GOAL MONITORING",
+  "description": "Bite Balance is a nutrition tracking app for anyone pursuing healthier habits. Whether your goal is weight loss or mindful eating, the app helps you stay on track by calculating calories and macronutrients from your logged meals using the Nutritionix API. Users can define personalized goals like target weight, daily calorie limits, and BMI range, and follow their journey through a data-rich dashboard.",
+  "features": [
+    {
+      "title": "Smart Meal Logging",
+      "description": "Quickly search and log meals using the Nutritionix API for accurate nutritional data."
+    },
+    {
+      "title": "Macro Breakdown",
+      "description": "Visualize how your daily intake splits between protein, carbs, and fat to check for imbalances."
+    },
+    {
+      "title": "Custom Goal Setting",
+      "description": "Set your ideal weight, BMI target, and daily calorie limits based on your personal health objectives."
+    },
+    {
+      "title": "Progress Dashboard",
+      "description": "Monitor your calorie trends, weight history, and goal completion through interactive charts and summaries."
+    }
+  ],
+  "stack": ["Vue", "Node JS", "Hono", "MongoDB"],
+  "thumbnail": "/thumbnails/bitebalance.png",
+  "desktop_gallery": [
+    "/galleries/bitebalance/desktop_0.png",
+    "/galleries/bitebalance/desktop_1.png",
+    "/galleries/bitebalance/desktop_2.png",
+    "/galleries/bitebalance/desktop_3.png",
+    "/galleries/bitebalance/desktop_4.png",
+    "/galleries/bitebalance/desktop_5.png",
+    "/galleries/bitebalance/desktop_6.png"
+  ],
+  "mobile_gallery": [
+    "/galleries/bitebalance/mobile_0.png",
+    "/galleries/bitebalance/mobile_1.png",
+    "/galleries/bitebalance/mobile_2.png",
+    "/galleries/bitebalance/mobile_3.png",
+    "/galleries/bitebalance/mobile_4.png",
+    "/galleries/bitebalance/mobile_5.png",
+    "/galleries/bitebalance/mobile_6.png"
+  ],
+  "viewport": "mobile",
+  "gh_url": "https://github.com/miguel-fg/bite-balance"
+}

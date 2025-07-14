@@ -8,26 +8,45 @@
       "description": "Generate questions based on your text input or PDF file."
     },
     {
-        "title": "Hints & Explanations",
-        "description": "Overcome challenging and confusing questions with AI-generated hints."
+      "title": "Hints & Explanations",
+      "description": "Overcome challenging and confusing questions with AI-generated hints."
     },
     {
-        "title": "Quiz Feedback",
-        "description": "Understand your strengths and gaps in knowledge on any topic."
+      "title": "Quiz Feedback",
+      "description": "Understand your strengths and gaps in knowledge on any topic."
     },
     {
-        "title": "PDF File Generation",
-        "description": "Take your quiz with you as a file with optional password protection and marked answers."
+      "title": "PDF File Generation",
+      "description": "Take your quiz with you as a file with optional password protection and marked answers."
     }
   ],
-  "stack": ["React", "Tailwind CSS", "Hono", "Node JS", "OpenAI API", "AdobePDF API"],
-  "gallery": [
-    "/galleries/intelliquiz/0.png",
-    "/galleries/intelliquiz/1.png",
-    "/galleries/intelliquiz/2.png",
-    "/galleries/intelliquiz/3.png"
+  "stack": [
+    "React",
+    "Tailwind CSS",
+    "Hono",
+    "Node JS",
+    "OpenAI API",
+    "AdobePDF API"
+  ],
+  "thumbnail": "/thumbnails/intelliquiz.png",
+  "desktop_gallery": [
+    "/galleries/intelliquiz/desktop_0.png",
+    "/galleries/intelliquiz/desktop_1.png",
+    "/galleries/intelliquiz/desktop_2.png",
+    "/galleries/intelliquiz/desktop_3.png",
+    "/galleries/intelliquiz/desktop_4.png",
+    "/galleries/intelliquiz/desktop_5.png",
+    "/galleries/intelliquiz/desktop_6.png"
+  ],
+  "mobile_gallery": [
+    "/galleries/intelliquiz/mobile_0.png",
+    "/galleries/intelliquiz/mobile_1.png",
+    "/galleries/intelliquiz/mobile_2.png",
+    "/galleries/intelliquiz/mobile_3.png",
+    "/galleries/intelliquiz/mobile_4.png",
+    "/galleries/intelliquiz/mobile_5.png",
+    "/galleries/intelliquiz/mobile_6.png"
   ],
   "viewport": "desktop",
-  "gh_url": "https://github.com/miguel-fg/intelliquiz",
-  "web_url": "https://miguel-fg.github.io/intelliquiz/"
+  "gh_url": "https://github.com/miguel-fg/intelliquiz"
 }

@@ -1,0 +1,29 @@
+{
+  "name": "Heritage Hub",
+  "subtitle": "INTERACTIVE 3D MUSEUM EXPERIENCE",
+  "description": "Heritage Hub brings museum collections to life through interactive 3D models. Built to support public engagement and educational outreach, the platform showcases detailed scans of cultural artifacts with accessible information about their history, materials, dimensions, and provenance. Users can rotate, zoom, and inspect each object, guided by points of interest that highlight significant features and context. \n\nBuilt in collaboration with the SFU Archaeology Department, Heritage Hub blends cutting-edge web technology with a mission to make heritage learning more immersive and inclusive.",
+  "features": [
+    {
+      "title": "3D Object Visualizer",
+      "description": "Interact with high-fidelity scans of archaeological artifacts with smooth controls for rotation, zooming, and panning."
+    },
+    {
+      "title": "Educational Annotations",
+      "description": "Tap on points of interest embedded in the 3D models to discover detailed notes about specific features or historical significance."
+    },
+    {
+      "title": "Object Metadata",
+      "description": "Learn about each artifact's cultural origin, materials, dimensions, and provenance."
+    },
+    {
+      "title": "Responsive Design",
+      "description": "Optimized for desktop and mobile devices."
+    }
+  ],
+  "stack": ["Vue", "Node JS", "PostgreSQL", "Express"],
+  "thumbnail": "/thumbnails/heritagehub.png",
+  "mobile_gallery": [],
+  "desktop_gallery": [],
+  "viewport": "mobile",
+  "gh_url": "https://github.com/miguel-fg/heritage-hub"
+}
