@@ -25,13 +25,18 @@
     }
   ],
   "stack": ["React Native", "Node JS", "SQLite", "Expo"],
-  "gallery": [
-    "/galleries/cashflow/0.jpg",
-    "/galleries/cashflow/1.jpg",
-    "/galleries/cashflow/2.jpg",
-    "/galleries/cashflow/3.jpg",
-    "/galleries/cashflow/4.jpg"
+  "thumbnail": "/thumbnails/cashflow.png",
+  "mobile_gallery": [
+    "/galleries/cashflow/mobile_0.png",
+    "/galleries/cashflow/mobile_1.png",
+    "/galleries/cashflow/mobile_2.png",
+    "/galleries/cashflow/mobile_3.png",
+    "/galleries/cashflow/mobile_4.png",
+    "/galleries/cashflow/mobile_5.png",
+    "/galleries/cashflow/mobile_6.png",
+    "/galleries/cashflow/mobile_7.png"
   ],
+  "desktop_gallery": [],
   "viewport": "mobile",
   "gh_url": "https://github.com/miguel-fg/cashflow-v2"
 }

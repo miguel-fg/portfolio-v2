@@ -2,6 +2,14 @@
   "projects": [
     {
       "id": 0,
+      "name": "Heritage Hub",
+      "url_name": "heritagehub",
+      "subtitle": "INTERACTIVE 3D MUSEUM EXPERIENCE",
+      "description": "A digital platform for exploring 3D-scanned cultural objects. Users can interact with artifacts, examine key details, and learn about their history, materials, and provenance.",
+      "thumbnail": "/thumbnails/heritagehub.png"
+    },
+    {
+      "id": 1,
       "name": "IntelliQuiz",
       "url_name": "intelliquiz",
       "subtitle": "AI-POWERED QUIZ MAKER APP",
@@ -9,7 +17,15 @@
       "thumbnail": "/thumbnails/intelliquiz.png"
     },
     {
-      "id": 1,
+      "id": 2,
+      "name": "Bite Balance",
+      "url_name": "bitebalance",
+      "subtitle": "NUTRITION TRACKER WITH GOAL MONITORING",
+      "description": "Track daily meals and macros with precision. Bite Balance uses real-time data from the Nutritionix API to help visualize calorie intake, set health goals, and monitor progress.",
+      "thumbnail": "/thumbnails/bitebalance.png"
+    },
+    {
+      "id": 3,
       "name": "Cash Flow",
       "url_name": "cashflow",
       "subtitle": "PERSONAL BUDGET ASSISTANT",

@@ -1,44 +1,70 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-    theme: {
-        extend: {
-            colors: {
-                "oxford-blue": "#0E1C36",
-                alabaster: "#F1EFE7",
-                "sea-green": "#5C946E",
-                "sea-green-light": "#9BC0A7",
-                vlink: "#8D8253",
-                "form-error": "#C42021",
-            },
-            fontFamily: {
-                LS: ['"League Spartan"', "sans-serif"],
-                MT: ["Montserrat", "sans-serif"],
-            },
-            fontSize: {
-                body: ["1.25rem", { lineHeight: "130%", fontWeight: "400" }],
-                "sub-subtitle": ["2.25rem", { fontWeight: "400" }],
-                subtitle: ["2.5rem", { fontWeight: "400" }],
-                h3: ["1.5rem", { letterSpacing: "0.05em", fontWeight: "600" }],
-                h2: ["4rem", { fontWeight: "700" }],
-                h1: ["6rem", { fontWeight: "700" }],
-                h1lg: ["8rem", { fontWeight: "700"}]
-            },
-            gridTemplateColumns: {
-                12: "repeat(12, auto)",
-            },
-            gap: {
-                20: "1.25rem",
-                5: "0.25rem"
-            },
-            width: {
-                "fit-content": "fit-content",
-            },
-            height: {
-                "fit-content": "fit-content",
-            },
-        },
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        "oxford-blue": "#0E1C36",
+        alabaster: "#F1EFE7",
+        "sea-green": "#5C946E",
+        "sea-green-light": "#9BC0A7",
+        vlink: "#8D8253",
+        "form-error": "#C42021",
+        "primary-100": "#DEEAE2",
+        "primary-200": "#BED4C5",
+        "primary-300": "#9DBFA8",
+        "primary-400": "#7DA988",
+        "primary-500": "#5C946E",
+        "primary-600": "#4A7658",
+        "primary-700": "#375942",
+        "primary-800": "#253B2C",
+        "primary-900": "#121E16",
+        "secondary-100": "#CFD2D7",
+        "secondary-200": "#9FA4AF",
+        "secondary-300": "#6E7786",
+        "secondary-400": "#3E495E",
+        "secondary-500": "#0E1C36",
+        "secondary-600": "#0B162B",
+        "secondary-700": "#081120",
+        "secondary-800": "#060B16",
+        "secondary-900": "#03060B",
+        "grayscale-100": "#F1EFE7",
+        "grayscale-200": "#D9D7D0",
+        "grayscale-300": "#C1BFB9",
+        "grayscale-400": "#A9A7A2",
+        "grayscale-500": "#797874",
+        "grayscale-600": "#60605C",
+        "grayscale-700": "#484845",
+        "grayscale-800": "#30302E",
+        "grayscale-900": "#181817",
+      },
+      fontFamily: {
+        LS: ['"League Spartan"', "sans-serif"],
+        MT: ["Montserrat", "sans-serif"],
+      },
+      fontSize: {
+        body: ["1.25rem", { lineHeight: "130%", fontWeight: "400" }],
+        "sub-subtitle": ["2.25rem", { fontWeight: "400" }],
+        subtitle: ["2.5rem", { fontWeight: "400" }],
+        h3: ["1.25rem", { letterSpacing: "0.05em", fontWeight: "600" }],
+        h2: ["4rem", { fontWeight: "700" }],
+        h1: ["6rem", { fontWeight: "700" }],
+        h1lg: ["8rem", { fontWeight: "700" }],
+      },
+      gridTemplateColumns: {
+        12: "repeat(12, auto)",
+      },
+      gap: {
+        20: "1.25rem",
+        5: "0.25rem",
+      },
+      width: {
+        "fit-content": "fit-content",
+      },
+      height: {
+        "fit-content": "fit-content",
+      },
     },
-    plugins: [],
+  },
+  plugins: [],
 };
-
