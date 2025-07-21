@@ -5,11 +5,11 @@
   "features": [
     {
       "title": "AI Quiz Generation",
-      "description": "Generate questions based on your text input or PDF file."
+      "description": "Generate questions based on your text input or text-based file."
     },
     {
-      "title": "Hints & Explanations",
-      "description": "Overcome challenging and confusing questions with AI-generated hints."
+      "title": "Engaging Quiz UI",
+      "description": "In-app user interface tracks your answers along the way."
     },
     {
       "title": "Quiz Feedback",
@@ -17,36 +17,14 @@
     },
     {
       "title": "PDF File Generation",
-      "description": "Take your quiz with you as a file with optional password protection and marked answers."
+      "description": "Take your quiz with you as a file with included answer key."
     }
   ],
-  "stack": [
-    "React",
-    "Tailwind CSS",
-    "Hono",
-    "Node JS",
-    "OpenAI API",
-    "AdobePDF API"
-  ],
+  "stack": ["React", "Tailwind CSS", "Hono", "Node JS", "OpenAI API"],
   "thumbnail": "/thumbnails/intelliquiz.png",
-  "desktop_gallery": [
-    "/galleries/intelliquiz/desktop_0.png",
-    "/galleries/intelliquiz/desktop_1.png",
-    "/galleries/intelliquiz/desktop_2.png",
-    "/galleries/intelliquiz/desktop_3.png",
-    "/galleries/intelliquiz/desktop_4.png",
-    "/galleries/intelliquiz/desktop_5.png",
-    "/galleries/intelliquiz/desktop_6.png"
-  ],
-  "mobile_gallery": [
-    "/galleries/intelliquiz/mobile_0.png",
-    "/galleries/intelliquiz/mobile_1.png",
-    "/galleries/intelliquiz/mobile_2.png",
-    "/galleries/intelliquiz/mobile_3.png",
-    "/galleries/intelliquiz/mobile_4.png",
-    "/galleries/intelliquiz/mobile_5.png",
-    "/galleries/intelliquiz/mobile_6.png"
-  ],
+  "desktop_gallery": [],
+  "mobile_gallery": [],
   "viewport": "desktop",
+  "web_url": "https://miguel-fg.github.io/intelliquiz/",
   "gh_url": "https://github.com/miguel-fg/intelliquiz"
 }

@@ -25,7 +25,11 @@ const App = () => {
           </Routes>
         </HashRouter>
       </div>
-      <div className="w-full h-4 sticky top-[100vh] bg-sea-green opacity-80 mt-12"></div>
+      <div className="w-full sticky top-[100vh] bg-primary-500/80 mt-12">
+        <span className="font-MT text-grayscale-900 text-sm flex justify-center pt-1">
+          &copy; Miguel Fierro 2025 | Software & Web Developer
+        </span>
+      </div>
     </>
   );
 };
