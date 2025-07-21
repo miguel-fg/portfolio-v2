@@ -90,7 +90,11 @@ const ProjectDetails = () => {
         <div className="lg:col-span-1 lg:col-start-2 items-center justify-center">
           <div
             onClick={() => {
-              if (projectData.name !== "Heritage Hub") {
+              if (
+                projectData.name !== "Heritage Hub" &&
+                projectData.mobile_gallery.length > 0 &&
+                projectData.desktop_gallery.length > 0
+              ) {
                 setShowGallery(true);
               }
             }}
@@ -119,7 +123,7 @@ const ProjectDetails = () => {
                 to={projectData.web_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-sea-green border-4 border-sea-green text-center px-4 md:px-8 py-1 rounded-xl drop-shadow-md text-h3 text-nowrap uppercase font-LS text-alabaster mt-6 active:bg-oxford-blue active:border-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4 w-5/12 lg:w-fit-content"
+                className="bg-sea-green border-4 border-sea-green text-center px-4 md:px-8 py-1 rounded-xl drop-shadow-md text-h3 text-nowrap uppercase font-LS text-alabaster mt-6 active:bg-oxford-blue active:border-oxford-blue focus:outline-none focus:ring-oxford-blue focus:ring-4 w-5/12 lg:w-fit-content hover:bg-primary-600 hover:border-primary-600"
               >
                 Website
               </Link>
